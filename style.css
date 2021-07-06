@@ -76,6 +76,7 @@ section {
   margin-bottom: 70px;
   margin-left: 5%;
   font-size: 22px;
+  margin-right: 26%;
 }
 .recipies {
   display: block;
@@ -146,4 +147,44 @@ footer p {
   color: white;
   text-align: center;
   padding-top: 20px;
+}
+.form-sec {
+  display: block;
+}
+.form {
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 20px grey;
+  width: 27%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  height: 280px;
+}
+.button-sub {
+  font-size: 20px;
+  background-image: linear-gradient(
+    to left,
+    rgb(232 23 23),
+    rgb(247 140 0 / 74%)
+  );
+  padding: 10px 15px;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  margin: 10px 10px 10px 0;
+}
+input {
+  margin: 5px 20px 10px 20px;
+  padding: 6px;
+  border: 1px solid black;
+}
+.form-sec h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.text-one {
+  margin-top: 33px;
+}
+.text-last {
+  margin-bottom: 40px;
 }
